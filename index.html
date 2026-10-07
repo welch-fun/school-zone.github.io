@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="Free, simple online school tools.">
+  <title>School Zone — Free School Tools</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-mark">SZ</span><span>School Zone</span></a>
+    <span class="header-note">Free tools for school</span>
+  </header>
+
+  <main class="home">
+    <section class="hero">
+      <p class="eyebrow">FREE • SIMPLE • ONLINE</p>
+      <h1>School tools,<br><span>without the fuss.</span></h1>
+      <p class="hero-copy">Useful little tools for students, teachers and anyone who needs to get schoolwork done.</p>
+    </section>
+
+    <section class="tools-grid" aria-label="School tools">
+      <button class="tool-card" data-tool="calculator">
+        <span class="tool-icon">＋</span><span><strong>Calculator</strong><small>Quick everyday calculations</small></span>
+      </button>
+      <button class="tool-card" data-tool="timer">
+        <span class="tool-icon">◷</span><span><strong>Study Timer</strong><small>Focus with a simple timer</small></span>
+      </button>
+      <button class="tool-card" data-tool="random">
+        <span class="tool-icon">?</span><span><strong>Random Picker</strong><small>Pick a name or number</small></span>
+      </button>
+      <button class="tool-card" data-tool="counter">
+        <span class="tool-icon">123</span><span><strong>Word Counter</strong><small>Count words and characters</small></span>
+      </button>
+    </section>
+
+    <section class="info-strip">
+      <div><strong>No accounts.</strong><span>No sign-ups or logins.</span></div>
+      <div><strong>Free forever.</strong><span>Hosted on GitHub Pages.</span></div>
+      <div><strong>Browser based.</strong><span>Nothing to install.</span></div>
+    </section>
+  </main>
+
+  <a class="duck-egg" href="duckz/" aria-label="A hidden collection of games">🦆</a>
+
+  <div class="tool-modal" id="toolModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-tool></div>
+    <section class="tool-window" role="dialog" aria-modal="true" aria-labelledby="toolTitle">
+      <button class="modal-close" data-close-tool aria-label="Close">×</button>
+      <h2 id="toolTitle"></h2>
+      <div id="toolContent"></div>
+    </section>
+  </div>
+
+  <footer>School Zone • made for the web</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

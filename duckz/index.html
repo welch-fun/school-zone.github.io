@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#e8dcc9">
+  <title>Duckz — School Zone</title>
+  <link rel="stylesheet" href="../css/duckz.css">
+</head>
+<body>
+  <header class="duck-header">
+    <a href="../" class="back">← School Zone</a>
+    <div class="duck-logo"><span>DUCKZ</span><b>🦆</b></div>
+    <span class="tagline">little games. big quacks.</span>
+  </header>
+
+  <main class="duck-main">
+    <div class="duck-intro"><p>THE HIDDEN CORNER</p><h1>Pick a game.</h1></div>
+    <section class="game-grid" id="gameGrid" aria-label="Games"></section>
+  </main>
+
+  <div class="game-overlay" id="gameOverlay" aria-hidden="true">
+    <div class="game-shade"></div>
+    <section class="game-frame" role="dialog" aria-modal="true" aria-label="Game">
+      <div class="frame-top"><span id="frameTitle">Game</span><button id="closeGame" aria-label="Close game">×</button></div>
+      <iframe id="gameFrame" title="Duckz game" allow="fullscreen"></iframe>
+    </section>
+  </div>
+  <script src="../js/duckz.js"></script>
+</body>
+</html>

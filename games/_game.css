@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Space+Grotesk:wght@600;700&display=swap');
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:#f6efdf;color:#2e2118;font-family:"DM Sans",sans-serif;display:grid;place-items:center;padding:22px}
+.game{width:min(760px,100%);text-align:center}.title{font:700 42px "Space Grotesk";letter-spacing:-.05em;margin:0 0 8px}.sub{color:#806f5d;margin:0 0 22px}.panel{background:#fffaf0;border:2px solid #d4c3ad;border-radius:18px;padding:22px;box-shadow:0 10px 30px rgba(60,40,20,.08)}
+button{font:700 15px "DM Sans";border:0;border-radius:10px;background:#69452d;color:white;padding:12px 18px;cursor:pointer}button:hover{filter:brightness(1.08)}
+.big{font:700 64px "Space Grotesk";margin:12px}.score{font-weight:700;color:#69452d}.message{min-height:26px;margin:12px}
